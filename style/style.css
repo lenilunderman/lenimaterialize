@@ -15,7 +15,7 @@ h3{
 }
 
 .navbar-image {
-    background-image: url(/img/green.jpg);
+    background-image: url(../img/green.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
