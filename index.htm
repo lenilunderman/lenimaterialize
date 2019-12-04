@@ -4,24 +4,29 @@
     <meta charset="UTF-8">
     <!-- Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/db72b50c7f.js" crossorigin="anonymous"></script>
+    
     <!-- Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300|Lato:300,400,700,700i|Sulphur+Point:300,400,700&display=swap" rel="stylesheet">
     
     <!-- Customized CSS -->
     <link rel="stylesheet" href="style/style.css">
     <title>My Personal Portfolio</title>
+    
 </head>
 <body>
     <!-- section navegation -->
     <div class="navbar-image">
        <div class="navbar-fixed">
-            <nav class="transparent">
+            <nav class="transparents" style="">
                 <div class="container">
                     <a href="#" class="brand-logo">Leni Lunderman</a>
                     <ul class="right hide-on-med-and-down navegation-top">
-                        <li><a href="#" id="#about"> About me </a></li>
-                        <li><a href="#" id="#projects"> Projects </a></li>
-                        <li><a href="#" id="#contact"> Contact me </a></li>
+                        <li><a href="#about"> About me </a></li>
+                        <li><a href="#projects"> Projects </a></li>
+                        <li><a href="#contact"> Contact me </a></li>
                     </ul>
                 </div>
             </nav>
@@ -52,17 +57,59 @@
     </div>
     
     <!-- section about me -->
+    <div class="section aboutme">
+        <div class="container bio center scrollspy" id="about">
+           
+            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam itaque ducimus laudantium minus, illum nisi cum numquam odit tempore molestiae facere id veritatis dolore tenetur alias sit sint necessitatibus dignissimos.
+            <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ut ex quisquam consequatur earum illo, tenetur sit neque, reprehenderit vero!</h5>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam itaque ducimus laudantium minus, illum nisi cum numquam odit tempore molestiae facere id veritatis dolore tenetur alias sit sint necessitatibus dignissimos.
+            <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ut ex quisquam consequatur earum illo, tenetur sit neque, reprehenderit vero!</h5>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam itaque ducimus laudantium minus, illum nisi cum numquam odit tempore molestiae facere id veritatis dolore tenetur alias sit sint necessitatibus dignissimos.
+            <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ut ex quisquam consequatur earum illo, tenetur sit neque, reprehenderit vero!</h5>
+        </div>
+        <div class="link-resume container center">
+            <div class="resume">
+                <span>
+                <a href="https://drive.google.com/file/d/1XmvHgG5AWnNKEfNw-zCakUSrrQoMyhtI/view?usp=sharing" target="_blank">
+                    Download Resume <br>
+                    <i class="fas fa-arrow-circle-up fa-1x"></i>
+                </a> 
+                </span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- section portfolio -->
+    
+    <!-- section skills -->
+    
+    <!-- footer -->
+    
+    
     
     
     
 
+
+   
+   
+   
+   
     
-    
-    
-    
-    
+    <!--JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"> </script>
+    <script>
+        $(document).ready(function(){
+        $('.parallax').parallax();
+        $('.scrollspy').scrollSpy();
+        });
+        
+        
+    </script>
     
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    </script>
+     
 </body>
 </html>
