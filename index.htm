@@ -26,7 +26,7 @@
                     <ul class="right hide-on-med-and-down navegation-top">
                         <li><a href="#about"> About me </a></li>
                         <li><a href="#portfolio"> Projects </a></li>
-                        <li><a href="#contact"> Contact me </a></li>
+                        <li><a href="#contactme"> Contact me </a></li>
                     </ul>
                 </div>
             </nav>
@@ -60,25 +60,20 @@
     <div class="section aboutme">
         <div class="container bio center scrollspy" id="about">
            
-            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam itaque ducimus laudantium minus, illum nisi cum numquam odit tempore molestiae facere id veritatis dolore tenetur alias sit sint necessitatibus dignissimos.
+            <h5 class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam itaque ducimus laudantium minus, illum nisi cum numquam odit tempore molestiae facere id veritatis dolore tenetur alias sit sint necessitatibus dignissimos.
             <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ut ex quisquam consequatur earum illo, tenetur sit neque, reprehenderit vero!</h5>
-            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam itaque ducimus laudantium minus, illum nisi cum numquam odit tempore molestiae facere id veritatis dolore tenetur alias sit sint necessitatibus dignissimos.
+            <h5 class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam itaque ducimus laudantium minus, illum nisi cum numquam odit tempore molestiae facere id veritatis dolore tenetur alias sit sint necessitatibus dignissimos.
             <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ut ex quisquam consequatur earum illo, tenetur sit neque, reprehenderit vero!</h5>
-            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam itaque ducimus laudantium minus, illum nisi cum numquam odit tempore molestiae facere id veritatis dolore tenetur alias sit sint necessitatibus dignissimos.
+            <h5 class="flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam itaque ducimus laudantium minus, illum nisi cum numquam odit tempore molestiae facere id veritatis dolore tenetur alias sit sint necessitatibus dignissimos.
             <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ut ex quisquam consequatur earum illo, tenetur sit neque, reprehenderit vero!</h5>
 
         </div>
-        
+    <!-- resume link to download -->
+        <div class="linkdownload center">
+            <span><i class="fas fa-cloud-download-alt"></i> <a href="#"> Download Resume </a></span>
+        </div> 
     </div>
 
-    <!-- resume link to download -->
-
-
-
-
-
-
-    
     <!-- section portfolio -->
     <div class="section portfolio">
         <div class="container center" id="projects">
@@ -388,12 +383,12 @@
                 <div class="card">
                     <div class="card-image">
                         <img src="./img/projects/sqlite.jpg" alt="My Clue website">
-                        <span class="card-title">SQLite CRUD Applicaton</span>
+                        <span class="card-title">SQLite CRUD</span>
                     </div>
                     <div class="card-content">    
                         <p> 
                             A simple CRUD application using SQLite and Python. This application was created for learning porporse.
-                        </p><br>
+                        </p>
                         <div class="divider"></div>
                         <div class="tooltip">
                             <span class="new badge blue-grey" data-badge-caption="Python">
@@ -417,12 +412,12 @@
                 <div class="card">
                     <div class="card-image">
                         <img src="./img/projects/flaskcrud.jpg" alt="My Flask App">
-                        <span class="card-title">Flask CRUD Applicaton</span>
+                        <span class="card-title">Flask CRUD</span>
                     </div>
                     <div class="card-content">    
                         <p> 
                             A simple CRUD application using Flask, SQLAlchemy and Python. This application was created for learning porporse.
-                        </p><br>
+                        </p>
                         <div class="divider"></div>
                         <div class="tooltip">
                             <span class="new badge blue-grey lighten-2" data-badge-caption="SQLAlchemy">
@@ -440,35 +435,97 @@
                             <a href="https://github.com/lenilunderman/crud-flask-cadastro-de-clients/blob/master/crud.py" target="_blank">
                                 <strong> Source Code </strong>
                             </a>
+                            <a href="http://lenilunderman.pythonanywhere.com/" target="_blank">
+                                <strong>  Project Link </strong>
+                            </a>
                        </div>  
                 </div>
             </div>
-
-            
-
-
-
-
-
-            
+    
         </div>
         <!--End of theree row -->
 
-
-        
-        
-
-
-
-
-
-
-
-
     </div>
-    <!-- section skills -->
-    
+
+    <!-- section contact form -->
+    <div class="section contactme">
+        <div class="row contact-form">
+            <div class="container">
+                <div class="row center white-text scrollspy" id="contactme">
+                    <h1>Contact me</h1>
+                </div>
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s12">
+                          <textarea id="textarea1" class="materialize-textarea"></textarea>
+                          <label for="textarea1">Message</label>
+                        </div>
+                      </div>
+
+                    <button class="btn waves-effect waves-light blue-grey darken-2" type="submit" name="action">
+                        <i class="fas fa-paper-plane fa-xs" style="font-size:0.9em";> </i>
+                        Submit   
+                    </button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
     <!-- footer -->
+    <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Skills</h5>
+              <p class="grey-text text-lighten-4">These are some of the skills that I am familiar with.</p>
+                <div class="row black-text skill-set" id="skillset">
+                    <i class="fab fa-python fa-2x"></i>
+                    <i class="fab fa-php fa-2x"></i>
+                    <i class="fab fa-js-square fa-2x"></i>
+                    <i class="fas fa-flask fa-2x"></i>
+                    <i class="fab fa-html5 fa-2x"></i>
+                    <i class="fab fa-css3-alt fa-2x"></i>
+                    <i class="fab fa-sass fa-2x"></i>   
+                </div>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3 #about" href="#about"> About me</a></li>
+                <li><a class="grey-text text-lighten-3 #portfolio" href="#portfolio"> Projects</a></li>
+                <li><a class="grey-text text-lighten-3 #contactme" href="#contactme"> Contact me</a></li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2019 Copyright Leni Lunderman
+          <a class="grey-text text-lighten-4 right" href="http://www.github.com/lenilunderman/" target="_blank"> 
+            <span> <i class="fab fa-github"></i> Github </span> </a> 
+          </div>
+        </div>
+      </footer>
     
     
     

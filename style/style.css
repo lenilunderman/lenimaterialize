@@ -14,6 +14,7 @@ h3{
     font-weight: lighter;
 }
 
+/* Navegation */
 nav.transparents{
     background-color: rgba(255, 255, 255, .65);
 }
@@ -38,6 +39,7 @@ nav .brand-logo{
     font-family: 'Sulphur Point', sans-serif; 
 }
 
+/* Headings */
 .header-info{
     margin-top: 15vh;
 }
@@ -71,6 +73,8 @@ nav .brand-logo{
     text-decoration:underline;
     transition: 0.4s;
 }
+
+/* About me */
 .aboutme{
     background-image: url(../img/orange.jpg);
     background-position: center;
@@ -83,22 +87,29 @@ nav .brand-logo{
     font-weight: 100;
     color: white;
 }
-.link-resume{
-    margin-top: 50px;
+
+/* Link Downloads */
+.linkdownload{
+    margin-top: 80px;
 }
-.resume span a{
+
+.linkdownload span a{
     color: #FF451C;
     font-size: 18px;
-    font-family: 'Lato', sans-serif;
-    
+    font-family: 'Lato', sans-serif;   
 }
-.resume span a:hover{
+.linkdownload i{
+    color: #FF451C;
+}
+
+.linkdownload span a:hover{
     color: #FEA173;
     text-shadow: 1px 1px 20px #FEA173;
     text-decoration:underline;
     transition: 0.5s;
 }
 
+/* Project Sections */
 #projects{
     font-family: 'Sulphur Point', sans-serif;
     color: #210011;
@@ -130,14 +141,96 @@ nav .brand-logo{
 
 .card .card-action strong{
     color: #210011;
-    font-weight: 800;
-    
+    font-weight: 800; 
 }
-
 .tooltip{
     font-size: 19px;
     padding: 5px;
 }
 .tooltip span{
     font-size: 19px;
+}
+
+/* Contact me form */
+.contactme{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color:#121D31;
+}
+
+/* contact form fields  */
+.input-field label {
+    color: white;
+  }
+  
+input, select, textarea{
+    color:#cbe884;
+    font-family: 'Lato', sans-serif;
+}
+textarea:focus, input:focus {
+    color: #34694f;
+    font-family: 'Lato', sans-serif;
+}
+/* end contact form fields  */
+
+#contactme{
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+/* Footer  */
+.page-footer{
+    background-color:rgb(8, 13, 22);
+}
+
+.footer-copyright a:hover{
+    color: #cbe884;
+    text-shadow: 1px 1px 20px #cbe884;
+    text-decoration:underline;
+    transition: 0.4s;
+}
+.footer-copyright span:hover{
+    color: yellow;
+}
+
+/* Skill set icons  */
+#skillset i{
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px; 
+}
+
+#skillset .fa-python:hover{
+    color: rgb(255, 251, 0);
+    text-shadow: 1px 1px 20px #FEA173;
+}
+
+#skillset .fa-php:hover{
+    color: rgb(142, 72, 199);
+    text-shadow: 1px 1px 20px rgb(69, 43, 143);
+}
+
+#skillset .fa-js-square:hover{
+    color: rgb(241, 162, 59);
+    text-shadow: 1px 1px 20px rgb(212, 185, 65);
+}
+
+#skillset .fa-flask:hover{
+    color: rgb(143, 185, 212);
+    text-shadow: 1px 1px 20px rgb(86, 119, 141);
+}
+
+#skillset .fa-html5:hover{
+    color: rgb(230, 70, 42);
+    text-shadow: 1px 1px 20px rgb(223, 65, 44);
+}
+
+#skillset .fa-css3-alt:hover{
+    color: rgb(30, 130, 245);
+    text-shadow: 1px 1px 20px rgb(41, 145, 177);
+}
+
+#skillset .fa-sass:hover{
+    color: rgb(245, 30, 209);
+    text-shadow: 1px 1px 20px rgb(221, 109, 216);
 }
